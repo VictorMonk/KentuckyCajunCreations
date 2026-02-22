@@ -4,6 +4,7 @@
   --tiktok-black: #010101;
   --fb-blue: #1877f2;
   --cash-green: #00c244;
+--storefront-berry: #831843;
 }
 
 * {
@@ -111,6 +112,11 @@ h1 {
 .facebook { background-color: var(--fb-blue); }
 .amazon { background-color: var(--amazon-orange); }
 .cashapp { background-color: var(--cash-green); }
+.storefront {
+  background-color: var(--storefront-berry);
+  /* Optional: Add a subtle glow since this is a priority link */
+  box-shadow: 0 0 15px rgba(131, 24, 67, 0.3);
+}
 
 /* Hover Effects */
 .btn:hover {
